@@ -1,4 +1,5 @@
 #include "math_ops.h"
+#include <algorithm>
 #include <cmath>
 #include <stdexcept>
 
