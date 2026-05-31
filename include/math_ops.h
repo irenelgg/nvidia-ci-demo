@@ -1,4 +1,8 @@
 #pragma once
+#include <vector>
 
-int add(int a, int b);
-int divide(int a, int b);
+using Matrix = std::vector<std::vector<float>>;
+
+Matrix matmul(const Matrix& A, const Matrix& B);
+Matrix relu(const Matrix& A);
+Matrix softmax(const Matrix& A);

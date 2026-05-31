@@ -22,4 +22,5 @@ run(["make"], cwd=BUILD_DIR)
 
 print("=== [3/3] Running tests ===")
 output = run([os.path.join(BUILD_DIR, "test_math_ops")])
+print(output)
 print("ALL TESTS PASSED")
